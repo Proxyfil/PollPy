@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@supabase/supabase-js": "^1.15.1",
+    "canvas": "^2.8.0",
+    "discord": "^0.8.2",
+    "discord-slash-commands-client": "^1.2.1",
+    "discord.js": "^12.5.3"
+  }
+}
