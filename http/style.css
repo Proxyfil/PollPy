@@ -1,0 +1,277 @@
+body{
+    background-color: #161616;
+    margin: 0;
+}
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 8vh;
+    text-align: center;
+    background-color: #161616;
+    border-bottom: #202020 0.1vh solid;
+    padding-bottom: 1.5vh;
+    z-index: 99;
+}
+.header-button{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 1vh;
+    background-color: #161616;
+    border: #161616 0.3vh solid;
+    border-radius: 3vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3vh;
+    padding: 1vh 2vw;
+    color: #d6d6d6;
+    transition: 0.3s;
+}
+.header-button:hover{
+    cursor: pointer;
+    background-color: #da5d5d;
+    border: #da5d5d 0.3vh solid;
+}
+.header-discord{
+    width: 3vw;
+    height: 3vw;
+    position: absolute;
+    top: 2vh;
+    right: 2vw;
+    opacity: 80%;
+}
+.header-discord:hover{
+    opacity: 100%;
+}
+.logo{
+    width: 5vw;
+    height: 5vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.header-button-active{
+    border: #da5d5d 0.3vh solid;
+}
+
+
+#about{
+    margin-top: 10vh;
+    text-align: center;
+}
+.about-title{
+    color: #da5d5d;
+    font-size: 6vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about-subtitle{
+    color: #d6d6d6;
+    font-size: 4vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+
+
+.body-button{
+    margin-right: 3vw;
+    margin-top: 0.5vh;
+    background-color: #161616;
+    border: #161616 0.2vh solid;
+    border-radius: 2vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2vh;
+    padding: 0.5vh 1vw;
+    color: #d6d6d6;
+    transition: 0.3s;
+}
+.body-button:hover{
+    cursor: pointer;
+    background-color: #da5d5d;
+    border: #da5d5d 0.2vh solid;
+}
+#body-buttons{
+    margin-top: 10vh;
+    text-align: center;
+}
+.body-button-main{
+    margin-right: 3vw;
+    margin-top: 0.5vh;
+    background-color: #161616;
+    border: #161616 0.2vh solid;
+    border-radius: 2vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2vh;
+    padding: 0.5vh 1vw;
+    color: #da5d5d;
+    transition: 0.3s;
+}
+.body-button-main:hover{
+    cursor: pointer;
+    background-color: #da5d5d;
+    border: #da5d5d 0.2vh solid;
+    color: #d6d6d6;
+}
+.body-button-sub{
+    margin-right: 3vw;
+    margin-top: 0.5vh;
+    background-color: #161616;
+    border: #161616 0.2vh solid;
+    border-radius: 2vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2vh;
+    padding: 0.5vh 1vw;
+    color: #dd801c;
+    transition: 0.3s;
+}
+.body-button-sub:hover{
+    cursor: pointer;
+    background-color: #dd801c;
+    border: #dd801c 0.2vh solid;
+    color: #d6d6d6;
+}
+
+
+#ask-pollpy{
+    margin-top: 30vh;
+    text-align: center;
+    margin-bottom: 30vh;
+}
+.ask-question{
+    color: #d6d6d6;
+    font-size: 4vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+.ask-response{
+    color: #d6d6d6;
+    font-size: 3vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.essential{
+    color: #da5d5d;
+}
+
+
+#stats{
+    margin-top: 10vh;
+    text-align: center;
+    animation-name: stats-global-anim;
+    animation-duration: 2s;
+}
+.stats-main{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #da5d5d;
+    font-size: 4vh;
+    margin: 10vw;
+    font-weight: bold;
+}
+.stats-sub{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #d6d6d6;
+    font-size: 3vh;
+}
+.stats-servers{
+    animation-name: stats-anim;
+    animation-duration: 2s;
+
+}
+.stats-users{
+    animation-name: stats-anim;
+    animation-duration: 3s;
+
+}
+.stats-runtime{
+    animation-name: stats-anim;
+    animation-duration: 4s;
+}
+
+@keyframes stats-anim {
+    from {
+        opacity: 0;
+        margin-top: 5vh;
+    }
+  
+    to {
+        opacity: 100;
+        margin-top: 10vh;
+    }
+}
+@keyframes stats-global-anim {
+    from {
+        margin-top: 5vh;
+    }
+  
+    to {
+        margin-top: 10vh;
+    }
+}
+
+
+#guide{
+    margin-top: 10vh;
+    text-align: center;
+    animation-name: stats-anim;
+    animation-duration: 4s;
+}
+.guide-title{
+    color: #da5d5d;
+    font-size: 6vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.guide-subtitle{
+    color: #d6d6d6;
+    font-size: 4vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+.guide-category{
+    color: #da5d5d;
+    font-size: 5vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.guide-command{
+    color: #d6d6d6;
+    font-size: 4vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.guide-description{
+    color: #d6d6d6;
+    font-size: 3vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.guide-example{
+    color: #d6d6d6;
+    font-size: 2vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.guide-condition{
+    color: #da5d5d;
+    font-size: 2vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.command-cell{
+    width: 30vw;
+    background-color: #202020;
+    padding: 2vw;
+}
+.news-title{
+    color: #d6d6d6;
+    font-size: 5vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.news-description{
+    color: #d6d6d6;
+    font-size: 3vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-left: #da5d5d 0.2vw solid;
+    border-radius: 0.1vw;
+    padding-left: 0.4vw;
+}
+.news-item{
+    padding: 1vw;
+    background-color: #202020;
+    margin: 0vw 17vw 2vw 17vw;
+}
+.news-banner{
+    text-align: left;
+}
