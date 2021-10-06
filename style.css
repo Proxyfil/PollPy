@@ -1,18 +1,218 @@
-body{
-    background-color: #161616;
-    margin: 0;
+@media (max-width: 1000px) {
+    .logo{
+        opacity: 0;
+        width: 1px;
+        height: 1px;
+    }
+    .header-discord{
+        opacity: 0;
+        width: 1px;
+        height: 1px;
+    }
+    body, html{
+        background-color: #161616;
+        width: 100%;
+        height: 100%;
+        margin: 0 0 0 0; 
+        padding: 0;
+        overflow: scroll;
+    }
+    .header{
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 8vh;
+        text-align: center;
+        justify-content: center;
+        background-color: #161616;
+        border-bottom: #202020 0.1vh solid;
+        padding-bottom: 1.5vh;
+        z-index: 99;
+    }
+    .stats-main{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #da5d5d;
+        font-size: 3vh;
+        margin: 10vw;
+        font-weight: bold;
+    }
+    .stats-sub{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #d6d6d6;
+        font-size: 2vh;
+    }
+    .guide-title{
+        color: #da5d5d;
+        font-size: 3vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .guide-subtitle{
+        color: #d6d6d6;
+        font-size: 2vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: oblique;
+    }
+    .guide-category{
+        color: #da5d5d;
+        font-size: 2vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .guide-command{
+        color: #d6d6d6;
+        font-size: 2vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .guide-description{
+        color: #d6d6d6;
+        font-size: 2vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .guide-example{
+        color: #d6d6d6;
+        font-size: 2vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .guide-condition{
+        color: #da5d5d;
+        font-size: 2vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .news-title{
+        color: #d6d6d6;
+        font-size: 3vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .news-description{
+        color: #d6d6d6;
+        font-size: 2vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-left: #da5d5d 0.2vw solid;
+        border-radius: 0.1vw;
+        padding-left: 0.4vw;
+    }
+    .news-item{
+        padding: 1vw;
+        background-color: #202020;
+    }
+    .news-banner{
+        text-align: left;
+    }
+    .news-date{
+        color: #d6d6d6;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1vh;
+    }
 }
-.header{
-    position: sticky;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 8vh;
-    text-align: center;
-    background-color: #161616;
-    border-bottom: #202020 0.1vh solid;
-    padding-bottom: 1.5vh;
-    z-index: 99;
+@media (min-width: 1001px) {
+    .header-discord{
+        width: 10vh;
+        height: auto;
+        position: absolute;
+        right: 3vw;
+        top: 0;
+    }
+    .logo{
+        width: 10vh;
+        height: auto;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    body, html{
+        background-color: #161616;
+        width: 100%;
+        height: 100%;
+        margin: 0 0 0 0; 
+        padding: 0;
+        overflow: visible;
+    }
+    .header{
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 99vw;
+        height: 8vh;
+        text-align: center;
+        justify-content: center;
+        background-color: #161616;
+        border-bottom: #202020 0.1vh solid;
+        padding-bottom: 1.5vh;
+        z-index: 99;
+    }
+    .stats-main{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #da5d5d;
+        font-size: 4vh;
+        margin: 10vw;
+        font-weight: bold;
+    }
+    .stats-sub{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #d6d6d6;
+        font-size: 3vh;
+    }
+    .guide-title{
+        color: #da5d5d;
+        font-size: 5vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .guide-subtitle{
+        color: #d6d6d6;
+        font-size: 3vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: oblique;
+    }
+    .guide-category{
+        color: #da5d5d;
+        font-size: 4vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .guide-command{
+        color: #d6d6d6;
+        font-size: 3vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .guide-description{
+        color: #d6d6d6;
+        font-size: 2vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .guide-example{
+        color: #d6d6d6;
+        font-size: 1.5vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .guide-condition{
+        color: #da5d5d;
+        font-size: 1.5vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .news-title{
+        color: #d6d6d6;
+        font-size: 5vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .news-description{
+        color: #d6d6d6;
+        font-size: 3vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-left: #da5d5d 0.2vw solid;
+        border-radius: 0.1vw;
+        padding-left: 0.4vw;
+    }
+    .news-item{
+        padding: 1vw;
+        background-color: #202020;
+    }
+    .news-banner{
+        text-align: left;
+    }
+    .news-date{
+        color: #d6d6d6;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1.5vh;
+    }
 }
 .header-button{
     margin-left: 5vw;
@@ -32,23 +232,8 @@ body{
     background-color: #da5d5d;
     border: #da5d5d 0.3vh solid;
 }
-.header-discord{
-    width: 3vw;
-    height: 3vw;
-    position: absolute;
-    top: 2vh;
-    right: 2vw;
-    opacity: 80%;
-}
 .header-discord:hover{
     opacity: 100%;
-}
-.logo{
-    width: 5vw;
-    height: 5vw;
-    position: absolute;
-    left: 0;
-    top: 0;
 }
 .header-button-active{
     border: #da5d5d 0.3vh solid;
@@ -58,6 +243,7 @@ body{
 #about{
     margin-top: 10vh;
     text-align: center;
+    justify-content: center;
 }
 .about-title{
     color: #da5d5d;
@@ -158,18 +344,6 @@ body{
     animation-name: stats-global-anim;
     animation-duration: 2s;
 }
-.stats-main{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #da5d5d;
-    font-size: 4vh;
-    margin: 10vw;
-    font-weight: bold;
-}
-.stats-sub{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #d6d6d6;
-    font-size: 3vh;
-}
 .stats-servers{
     animation-name: stats-anim;
     animation-duration: 2s;
@@ -213,65 +387,13 @@ body{
     animation-name: stats-anim;
     animation-duration: 4s;
 }
-.guide-title{
-    color: #da5d5d;
-    font-size: 6vh;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.guide-subtitle{
-    color: #d6d6d6;
-    font-size: 4vh;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: oblique;
-}
-.guide-category{
-    color: #da5d5d;
-    font-size: 5vh;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.guide-command{
-    color: #d6d6d6;
-    font-size: 4vh;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.guide-description{
-    color: #d6d6d6;
-    font-size: 3vh;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.guide-example{
-    color: #d6d6d6;
-    font-size: 2vh;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.guide-condition{
-    color: #da5d5d;
-    font-size: 2vh;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 .command-cell{
     width: 30vw;
     background-color: #202020;
     padding: 2vw;
 }
-.news-title{
-    color: #d6d6d6;
-    font-size: 5vh;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.news-description{
-    color: #d6d6d6;
-    font-size: 3vh;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-left: #da5d5d 0.2vw solid;
-    border-radius: 0.1vw;
-    padding-left: 0.4vw;
-}
-.news-item{
-    padding: 1vw;
+.news-cell{
+    width: 30vw;
     background-color: #202020;
-    margin: 0vw 17vw 2vw 17vw;
-}
-.news-banner{
-    text-align: left;
+    padding: 2vw;
 }
